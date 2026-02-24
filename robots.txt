@@ -1,0 +1,14 @@
+User-agent: *
+
+Allow: /
+Allow: /course/
+Allow: /course/course-details/
+Allow: /about.html
+Allow: /legal/privacy.html
+Allow: /legal/terms.html
+
+Disallow: /course/paid/
+Disallow: /api/
+Disallow: /assets/
+
+Sitemap: https://waslatalent.com/sitemap.xml

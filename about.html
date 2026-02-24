@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+  <!-- SEO — injected at runtime by about-app.js from COURSE_DATA -->
+  <title id="page-title">About Us — WaslaTalent Academy</title>
+  <meta name="description"
+        id="page-desc"
+        content="Learn about WaslaTalent Academy — professional HR, PMP, and IT training designed by industry practitioners to accelerate your career.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" id="page-canonical" href="https://waslatalent.com/about.html">
+
+  <!-- Open Graph -->
+  <meta property="og:type"        content="website">
+  <meta property="og:url"         id="og-url"       content="https://waslatalent.com/about.html">
+  <meta property="og:title"       id="og-title"     content="About Us — WaslaTalent Academy">
+  <meta property="og:description" id="og-desc"      content="Learn about WaslaTalent Academy — professional HR, PMP, and IT training designed by industry practitioners to accelerate your career.">
+  <meta property="og:image"       id="og-image"     content="https://waslatalent.com/assets/img/og-image.png">
+  <meta property="og:site_name"   id="og-site-name" content="WaslaTalent Academy">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card"        content="summary_large_image">
+  <meta name="twitter:title"       id="tw-title" content="About Us — WaslaTalent Academy">
+  <meta name="twitter:description" id="tw-desc"  content="Learn about WaslaTalent Academy — professional HR, PMP, and IT training designed by industry practitioners to accelerate your career.">
+  <meta name="twitter:image"       id="tw-image" content="https://waslatalent.com/assets/img/og-image.png">
+
+  <!-- hreflang -->
+  <link rel="alternate" hreflang="en" id="hreflang-en" href="https://waslatalent.com/about.html">
+
+  <!-- CSP — font-src includes 'self' for Inter self-hosted -->
+  <meta http-equiv="Content-Security-Policy"
+        content="default-src 'none';
+                 script-src 'self';
+                 style-src 'self' https://cdnjs.cloudflare.com;
+                 font-src 'self' https://cdnjs.cloudflare.com;
+                 img-src 'self' data:;
+                 connect-src 'self';
+                 form-action 'none';">
+                 
+  <!-- JSON-LD injected by about-app.js -->
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="assets/img/fav180.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/fav32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/fav32D.png"
+        media="(prefers-color-scheme: dark)">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/fav16.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/fav16D.png"
+        media="(prefers-color-scheme: dark)">
+
+  <!-- Preload critical font -->
+  <link rel="preload" href="assets/fonts/inter-variable.woff2"
+        as="font" type="font/woff2" crossorigin="anonymous">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="assets/css/courses.css">
+  <link rel="stylesheet" href="assets/css/about.css">
+</head>
+
+<body>
+
+  <!-- Skip to content -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- ═══════════════════════════════════════════
+       NAVBAR
+  ═══════════════════════════════════════════ -->
+  <nav class="navbar navbar-expand-lg about-navbar sticky-top"
+       aria-label="Main navigation">
+    <div class="container">
+
+      <a class="navbar-brand about-brand" href="./index.html">
+        <span class="about-brand-icon" aria-hidden="true">
+          <i class="bi bi-mortarboard-fill" aria-hidden="true"></i>
+        </span>
+        <span class="about-brand-text" id="nav-brand-name"></span>
+      </a>
+
+      <button class="navbar-toggler border-0" type="button"
+              data-bs-toggle="collapse" data-bs-target="#mainNav"
+              aria-controls="mainNav" aria-expanded="false"
+              aria-label="Toggle navigation">
+        <i class="bi bi-list fs-4 icon-em-500" aria-hidden="true"></i>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html"
+               data-nav-page="home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./course/"
+               data-nav-page="courses">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link about-nav-active" href="./about.html"
+               aria-current="page" data-nav-page="about">About</a>
+          </li>
+          <li class="nav-item ms-lg-2">
+            <a class="btn about-btn-outline btn-sm px-3" href="./course/"
+               aria-label="Browse all courses">
+              <i class="bi bi-grid-fill me-1" aria-hidden="true"></i>Browse All
+            </a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
+
+  <!-- ═══════════════════════════════════════════
+       PAGE HEADER
+  ═══════════════════════════════════════════ -->
+  <header class="about-page-header">
+    <div class="about-header-glow" aria-hidden="true"></div>
+    <div class="container about-header-content">
+
+      <!-- Breadcrumb -->
+      <nav aria-label="Breadcrumb" class="mb-3">
+        <ol class="about-breadcrumb">
+          <li>
+            <a href="./index.html">
+              <i class="bi bi-house-fill me-1" aria-hidden="true"></i>Home
+            </a>
+          </li>
+          <li aria-hidden="true">
+            <i class="bi bi-chevron-right"></i>
+          </li>
+          <li aria-current="page">About Us</li>
+        </ol>
+      </nav>
+
+      <div class="about-header-badge mb-3" aria-hidden="true">
+        <i class="bi bi-info-circle me-2" aria-hidden="true"></i>Who We Are
+      </div>
+      <h1 class="about-header-title">About Us</h1>
+      <p class="about-header-subtitle">
+        Professional training in HR, project management, and IT — built by
+        certified practitioners who understand what the industry demands.
+      </p>
+
+    </div>
+  </header>
+
+
+  <!-- ═══════════════════════════════════════════
+       MAIN CONTENT
+  ═══════════════════════════════════════════ -->
+  <main id="main-content">
+
+    <!-- ── PLATFORM SECTION ── -->
+    <section class="about-section" aria-labelledby="platform-heading">
+      <div class="container">
+        <div class="row g-5 align-items-center">
+
+          <!-- Text -->
+          <div class="col-12 col-lg-6">
+            <div class="about-section-badge mb-3" aria-hidden="true">
+              <i class="bi bi-stars me-2" aria-hidden="true"></i>Our Platform
+            </div>
+            <h2 class="about-section-title" id="platform-heading">
+              Built for Professionals,<br>
+              <span class="about-title-gradient">By Certified Experts</span>
+            </h2>
+            <p class="about-body-text">
+              <span id="brand-inline-1"></span> is a professional training
+              platform specializing in HR management, PMP and project management
+              certification, and IT technical skills. Every course is designed
+              and delivered by certified practitioners — PHR, PMP, ITIL, and
+              AWS credential holders who work in the field every day.
+            </p>
+            <p class="about-body-text">
+              We believe professional development should be direct and
+              results-driven. No bloated learning management systems, no
+              unnecessary complexity — just focused content, clear learning
+              paths, and the credentials that move your career forward.
+            </p>
+
+            <!-- Vision / Mission cards -->
+            <div class="row g-3 mt-1">
+              <div class="col-12 col-sm-6">
+                <div class="about-vm-card">
+                  <div class="about-vm-icon" aria-hidden="true">
+                    <i class="bi bi-eye-fill" aria-hidden="true"></i>
+                  </div>
+                  <h3 class="about-vm-title">Our Vision</h3>
+                  <p class="about-vm-text">
+                    A world where every professional has access to the expert
+                    knowledge and recognized certifications they need to advance
+                    their career — regardless of location or background.
+                  </p>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6">
+                <div class="about-vm-card about-vm-card--accent">
+                  <div class="about-vm-icon about-vm-icon--teal" aria-hidden="true">
+                    <i class="bi bi-bullseye" aria-hidden="true"></i>
+                  </div>
+                  <h3 class="about-vm-title">Our Mission</h3>
+                  <p class="about-vm-text">
+                    To deliver industry-aligned HR, PMP, and IT training with
+                    personal mentorship and real-world case studies — at a price
+                    that makes professional growth accessible to everyone.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Visual panel — decorative, aria-hidden -->
+          <div class="col-12 col-lg-6">
+            <div class="about-visual-panel" aria-hidden="true">
+              <div class="about-visual-inner">
+                <div class="about-visual-stat">
+                  <i class="bi bi-journal-bookmark-fill"></i>
+                  <span class="about-visual-stat-num">4+</span>
+                  <span class="about-visual-stat-lbl">Courses</span>
+                </div>
+                <div class="about-visual-stat about-visual-stat--accent">
+                  <i class="bi bi-people-fill"></i>
+                  <span class="about-visual-stat-num">500+</span>
+                  <span class="about-visual-stat-lbl">Professionals</span>
+                </div>
+                <div class="about-visual-stat">
+                  <i class="bi bi-award-fill"></i>
+                  <span class="about-visual-stat-num">3</span>
+                  <span class="about-visual-stat-lbl">Specializations</span>
+                </div>
+                <div class="about-visual-stat about-visual-stat--accent">
+                  <i class="bi bi-shield-check-fill"></i>
+                  <span class="about-visual-stat-num">30-day</span>
+                  <span class="about-visual-stat-lbl">Guarantee</span>
+                </div>
+              </div>
+              <div class="about-visual-glow"></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ── HOW WE WORK ── -->
+    <section class="about-section about-section--alt"
+             aria-labelledby="how-heading">
+      <div class="container">
+
+        <div class="text-center mb-5">
+          <div class="about-section-badge mb-3" aria-hidden="true">
+            <i class="bi bi-lightning-charge me-2" aria-hidden="true"></i>Our Model
+          </div>
+          <h2 class="about-section-title" id="how-heading">How We Work</h2>
+          <p class="about-section-subtitle">
+            A straightforward process designed for busy professionals
+          </p>
+        </div>
+
+        <div class="row g-4">
+
+          <div class="col-12 col-md-6 col-lg-3">
+            <article class="about-how-card h-100">
+              <div class="about-how-step" aria-hidden="true">01</div>
+              <div class="about-how-icon" aria-hidden="true">
+                <i class="bi bi-grid-fill" aria-hidden="true"></i>
+              </div>
+              <h3 class="about-how-title">Browse the Catalog</h3>
+              <p class="about-how-text">
+                Explore our catalog of professional training courses. Filter by
+                specialization — HR, PMP, or IT — and find the course that
+                matches your career objectives and certification goals.
+              </p>
+            </article>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-3">
+            <article class="about-how-card about-how-card--active h-100">
+              <div class="about-how-step" aria-hidden="true">02</div>
+              <div class="about-how-icon" aria-hidden="true">
+                <i class="bi bi-whatsapp" aria-hidden="true"></i>
+              </div>
+              <h3 class="about-how-title">Purchase via WhatsApp</h3>
+              <p class="about-how-text">
+                Click "Buy Now" on any course page. You'll connect directly with
+                our team on WhatsApp. We confirm your enrollment personally — no
+                third-party checkout or corporate procurement required.
+              </p>
+            </article>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-3">
+            <article class="about-how-card h-100">
+              <div class="about-how-step" aria-hidden="true">03</div>
+              <div class="about-how-icon about-how-icon--teal" aria-hidden="true">
+                <i class="bi bi-person-check-fill" aria-hidden="true"></i>
+              </div>
+              <h3 class="about-how-title">Get Your Access</h3>
+              <p class="about-how-text">
+                After payment is confirmed, we send your login credentials
+                via WhatsApp. All course materials — video lectures, workbooks,
+                and practice exams — are hosted securely on Google Drive.
+              </p>
+            </article>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-3">
+            <article class="about-how-card h-100">
+              <div class="about-how-step" aria-hidden="true">04</div>
+              <div class="about-how-icon about-how-icon--cyan" aria-hidden="true">
+                <i class="bi bi-play-circle-fill" aria-hidden="true"></i>
+              </div>
+              <h3 class="about-how-title">Start Learning</h3>
+              <p class="about-how-text">
+                Log in on the course page and begin your training immediately.
+                Study at your own pace, revisit lessons before your certification
+                exam, and access your content anytime, on any device, for life.
+              </p>
+            </article>
+          </div>
+
+        </div>
+
+        <!-- Storage note -->
+        <div class="about-note mt-5">
+          <div class="about-note-icon" aria-hidden="true">
+            <i class="bi bi-google" aria-hidden="true"></i>
+          </div>
+          <div class="about-note-body">
+            <strong>Content hosting:</strong> All course materials — including
+            video lectures, downloadable workbooks, practice exams, and
+            supplementary resources — are hosted on Google Drive. After
+            enrollment, your access is protected by a secure, per-course login.
+            Your credentials are never shared and your training materials are
+            always available.
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ── VALUES ── -->
+    <section class="about-section" aria-labelledby="values-heading">
+      <div class="container">
+
+        <div class="text-center mb-5">
+          <div class="about-section-badge mb-3" aria-hidden="true">
+            <i class="bi bi-gem me-2" aria-hidden="true"></i>What We Stand For
+          </div>
+          <h2 class="about-section-title" id="values-heading">Our Values</h2>
+          <p class="about-section-subtitle">
+            The principles that guide every course we build and every
+            professional we serve
+          </p>
+        </div>
+
+        <div class="row g-4 justify-content-center">
+
+          <div class="col-12 col-sm-6 col-lg-4">
+            <article class="about-value-card h-100">
+              <div class="about-value-icon about-value-icon--em" aria-hidden="true">
+                <i class="bi bi-patch-check-fill" aria-hidden="true"></i>
+              </div>
+              <h3 class="about-value-title">Industry Alignment</h3>
+              <p class="about-value-text">
+                Every course maps directly to recognized frameworks — SHRM,
+                PMBOK, ITIL, AWS. We don't teach theory in a vacuum; our
+                curriculum reflects what hiring managers and certification
+                bodies actually require.
+              </p>
+            </article>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-4">
+            <article class="about-value-card h-100">
+              <div class="about-value-icon about-value-icon--teal" aria-hidden="true">
+                <i class="bi bi-transparency" aria-hidden="true"></i>
+              </div>
+              <h3 class="about-value-title">Radical Transparency</h3>
+              <p class="about-value-text">
+                Clear pricing, honest refund policies, and direct communication.
+                No hidden fees, no auto-renewals, no surprise upsells. You know
+                exactly what you're getting before you enroll.
+              </p>
+            </article>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-4">
+            <article class="about-value-card h-100">
+              <div class="about-value-icon about-value-icon--cyan" aria-hidden="true">
+                <i class="bi bi-person-heart" aria-hidden="true"></i>
+              </div>
+              <h3 class="about-value-title">Personal Mentorship</h3>
+              <p class="about-value-text">
+                You're not a ticket number. When you reach out on WhatsApp, you
+                speak directly with a certified professional who understands
+                your certification path and can guide you through the material.
+              </p>
+            </article>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ── CONTACT ── -->
+    <section class="about-section about-section--alt about-contact-section"
+             aria-labelledby="contact-heading">
+      <div class="container">
+
+        <div class="text-center mb-5">
+          <div class="about-section-badge mb-3" aria-hidden="true">
+            <i class="bi bi-chat-dots me-2" aria-hidden="true"></i>Get in Touch
+          </div>
+          <h2 class="about-section-title" id="contact-heading">Contact Us</h2>
+          <p class="about-section-subtitle">
+            Questions about a course, your enrollment, or certification
+            guidance? We're here and we respond fast.
+          </p>
+        </div>
+
+        <div class="row g-4 justify-content-center">
+
+          <!-- WhatsApp card -->
+          <div class="col-12 col-sm-10 col-md-5 col-lg-4">
+            <article class="about-contact-card about-contact-card--wa h-100">
+              <div class="about-contact-icon" aria-hidden="true">
+                <i class="bi bi-whatsapp" aria-hidden="true"></i>
+              </div>
+              <h3 class="about-contact-title">WhatsApp</h3>
+              <p class="about-contact-text">
+                The fastest way to reach us. Ask about course content, confirm
+                an enrollment, get certification advice, or request support —
+                we're available daily.
+              </p>
+              <a id="contact-whatsapp-btn"
+                 href="#"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 class="btn about-btn-wa mt-auto"
+                 aria-label="Chat with us on WhatsApp">
+                <i class="bi bi-whatsapp me-2" aria-hidden="true"></i>
+                Chat on WhatsApp
+              </a>
+            </article>
+          </div>
+
+          <!-- Email card -->
+          <div class="col-12 col-sm-10 col-md-5 col-lg-4">
+            <article class="about-contact-card h-100">
+              <div class="about-contact-icon about-contact-icon--teal"
+                   aria-hidden="true">
+                <i class="bi bi-envelope-fill" aria-hidden="true"></i>
+              </div>
+              <h3 class="about-contact-title">Email</h3>
+              <p class="about-contact-text">
+                Prefer email? Send us a message about courses, corporate
+                training inquiries, or certification guidance — we'll get back
+                to you within 24 hours on business days.
+              </p>
+              <a id="contact-email-link"
+                 href="mailto:amr.omar0887@gmail.com"
+                 class="btn about-btn-outline mt-auto"
+                 aria-label="Send us an email">
+                <i class="bi bi-envelope me-2" aria-hidden="true"></i>
+                <span id="contact-email-text">amr.omar0887@gmail.com</span>
+              </a>
+            </article>
+          </div>
+
+        </div>
+
+        <!-- Refund note -->
+        <div class="about-note about-note--em about-note-narrow mt-5 mx-auto">
+          <div class="about-note-icon" aria-hidden="true">
+            <i class="bi bi-shield-check-fill" aria-hidden="true"></i>
+          </div>
+          <div class="about-note-body">
+            <strong>30-day money-back guarantee.</strong> Not satisfied with
+            a course? Contact us within 30 days of enrollment via WhatsApp or
+            email for a full refund — no questions asked. Your professional
+            development investment is always protected.
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main><!-- /#main-content -->
+
+
+  <!-- ═══════════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════════ -->
+  <footer class="about-footer" role="contentinfo">
+    <div class="container">
+
+      <div class="row g-4 about-footer-top">
+
+        <!-- Brand -->
+        <div class="col-12 col-md-4">
+          <div class="about-footer-brand mb-3">
+            <i class="bi bi-mortarboard-fill me-2 icon-em-500" aria-hidden="true"></i>
+            <span id="footer-brand-name"></span>
+          </div>
+          <p class="about-footer-tagline">
+            Professional HR, PMP, and IT training courses designed by certified
+            practitioners. Advance your career with industry-recognized skills.
+          </p>
+          <a id="footer-whatsapp-link"
+             href="#"
+             target="_blank"
+             rel="noopener noreferrer"
+             class="about-footer-social-link"
+             aria-label="Contact us on WhatsApp">
+            <i class="bi bi-whatsapp me-1" aria-hidden="true"></i>WhatsApp
+          </a>
+        </div>
+
+        <!-- Platform links -->
+        <div class="col-6 col-md-2 offset-md-1">
+          <p class="about-footer-col-title">Platform</p>
+          <ul class="about-footer-links">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./course/">All Courses</a></li>
+            <li><a href="./about.html">About Us</a></li>
+          </ul>
+        </div>
+
+        <!-- Categories — built dynamically -->
+        <div class="col-6 col-md-2">
+          <p class="about-footer-col-title">Categories</p>
+          <ul class="about-footer-links" id="footer-categories">
+            <!-- built by about-app.js -->
+          </ul>
+        </div>
+
+        <!-- Legal -->
+        <div class="col-6 col-md-2">
+          <p class="about-footer-col-title">Legal</p>
+          <ul class="about-footer-links">
+            <li><a href="./legal/privacy.html">Privacy Policy</a></li>
+            <li><a href="./legal/terms.html">Terms of Use</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact -->
+        <div class="col-6 col-md-2">
+          <p class="about-footer-col-title">Contact</p>
+          <ul class="about-footer-links">
+            <li>
+              <a id="footer-wa-link-2"
+                 href="#"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 aria-label="Contact us on WhatsApp">WhatsApp</a>
+            </li>
+            <li>
+              <a id="footer-email-link"
+                 href="mailto:amr.omar0887@gmail.com">Email Us</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Bottom bar -->
+      <div class="about-footer-bottom">
+        <span id="footer-copyright"></span>
+        <span class="about-footer-divider" aria-hidden="true">·</span>
+        <a href="./legal/privacy.html">Privacy</a>
+        <span class="about-footer-divider" aria-hidden="true">·</span>
+        <a href="./legal/terms.html">Terms</a>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Scripts — deferred, non-blocking -->
+  <script src="assets/bootstrap/js/bootstrap.min.js"  defer></script>
+  <script src="assets/js/utils.js"                    defer></script>
+  <script src="assets/js/courses-data.js"             defer></script>
+  <script src="assets/js/about-app.js"                defer></script>
+
+</body>
+</html>
